@@ -1,0 +1,45 @@
+/* navigation bar  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6e6464;
+}
+a {
+  text-decoration: none;
+  padding: 14px 16px;
+}
+li {
+  float: left;
+}
+li a {
+  color: aliceblue;
+  display: block;
+}
+li a:hover {
+  background-color: #111;
+  color: aqua;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.home:a {
+  text-decoration: none;
+}
+.home:hover {
+  color: aqua;
+}
+container {
+  display: flex;
+  background-color: antiquewhite;
+}
